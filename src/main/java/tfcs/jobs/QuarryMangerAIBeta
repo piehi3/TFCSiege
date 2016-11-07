@@ -1,0 +1,124 @@
+package tfcs.jobs;
+
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
+import tfcs.entity.EntitySettler;
+import tfcs.util.PositionHelper;
+
+public class QuarryManagerAI extends JobAIBase {
+
+	EntitySettler es;
+	double size = 0;
+	int[] coord = new int[] { 0, 0, 0 };
+	int maxSize = 10;
+	int cycle;
+	int layer;
+	boolean isActive;
+
+	public QuarryManagerAI(EntitySettler es) {
+		super(es);
+		this.es = es;
+		coord = new int[] { PositionHelper.shiftCoord(es.posX), PositionHelper.shiftCoord(es.posY), PositionHelper.shiftCoord(es.posZ) };
+		cycle = 1;
+	}
+
+	@Override
+	public boolean shouldExecute() {
+		for (int i = 1; i <= 5; i++) {
+			Block block = es.worldObj.getBlock(PositionHelper.shiftCoord(es.posX), PositionHelper.shiftCoord(es.posY) - i, PositionHelper.shiftCoord(es.posZ));
+			if (block == null || block.equals(Blocks.air))
+				return false;
+		}
+		return true;
+	}
+
+	@Override
+	public boolean continueExecuting() {
+		return !es.isDead;
+	}
+
+	@Override
+	public void startExecuting() {
+		cycle = -1;
+		layer = 0;
+		isActive = true;
+		this.coord = new int[] { PositionHelper.shiftCoord(es.posX), PositionHelper.shiftCoord(es.posY), PositionHelper.shiftCoord(es.posZ) };
+	}
+
+	@Override
+	public void resetTask() {
+		cycle = -1;
+		layer = 0;
+		isActive = true;
+	}
+
+	public void setQuaryPos(int x, int y, int z) {
+		this.coord = new int[] { x, y, z };
+	}
+
+	@Override
+	public void updateTask() {
+		if (isActive) {
+			double c = (8 * (size / Math.sqrt(2))) + 1;
+			selectBlock(c);
+		}
+	}
+
+	private void selectBlock(double c) {
+		System.out.println(size);
+		if (cycle <= c) {
+			cycle++;
+		} else {
+			cycle = -1;
+			this.size += 0.5;
+			if (size >= maxSize - layer) {
+				layer++;
+				size = 0;
+				if(layer>maxSize){
+					isActive = false;
+				}
+			}
+		}
+		int[] pos = getNextCoord(cycle);
+		if (!digBlock(pos[0], pos[1] - layer - 1, pos[2]))
+			if (cycle > c)
+				selectBlock(c);
+	}
+
+	public boolean digBlock(int x, int y, int z) {
+		x += coord[0];
+		y += coord[1];
+		z += coord[2];
+		if (es.worldObj.getBlock(x, y, z) != null && !es.worldObj.getBlock(x, y, z).equals(Blocks.air)) {
+			es.worldObj.setBlock(x, y, z, Blocks.air);
+
+			return true;
+		}
+		return false;
+	}
+
+	private int[] getNextCoord(int x) {
+		double c = Math.sqrt(2);
+		int cos = PositionHelper.shiftCoord(size / c);
+		if (x <= cos * 2) {
+			return new int[] { cos - x, 0, -getCircle(cos - x) };
+		} else if (x <= (cos * 4) + 1) {
+			x -= (cos * 2) + 1;
+			return new int[] { -getCircle(x - cos), 0, x - cos };
+		} else if (x <= (cos * 6) + 2) {
+			x -= (cos * 4) + 2;
+			return new int[] { x - cos, 0, getCircle(x - cos) };
+		} else if (x <= (cos * 8) + 3) {
+			x -= (cos * 6) + 3;
+			return new int[] { getCircle(cos - x), 0, cos - x };
+		}// else {
+		x = 0;
+		return getNextCoord(x);
+		// }
+	}
+
+	public int getCircle(double d) {
+		return PositionHelper.shiftCoord(Math.sqrt((size * size) - (d * d)));
+	}
+
+}

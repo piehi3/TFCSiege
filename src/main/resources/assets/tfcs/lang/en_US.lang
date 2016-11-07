@@ -1,0 +1,288 @@
+#en_US
+#This is the Main language configuration file
+#
+#If you want to color code the text then I recommend you visit http://www.minecraftwiki.net/wiki/Formatting_codes#Color_codes
+#To create the § symbol which is used for assigning a color to the following text press Alt + 21 on Windows. For other OSes, view the above link.
+#This file needs to be UTF-8 encoded to work with MC 1.7+
+
+#==========
+#= Blocks =
+#==========
+
+tile.tfcs:gearFrame.name=Gear Box
+tile.tfcs:launcherBase.name=Cannon Base
+tile.tfcs:mortar.name=Ceramic Mortar
+tile.tfcs:foundation.name=Stone Foundation
+tile.tfcs:port.name=Port
+
+tile.tfcs:dryingItem.undryed.name=Drying Brick
+tile.tfcs:dryingItem.dryed.name=Dry Brick
+tile.tfcs:mortar.name=Ceramic Mortar
+
+tile.tfcs:bomb.ceramic.name=Ceramic Bomb
+tile.tfcs:bomb.iron.name=Iron Bomb
+
+tile.tfcs:candle.on.name=Candle Lit
+tile.tfcs:candle.off.name=Candle Unlit
+
+tile.tfcs:aqueduct.name=Aqueduct
+tile.tfcs:aqueductPart.spout.name=Aqueduct Spout
+
+tile.tfcs:wall.thatch.thatch.name=Thatch Wall
+tile.tfcs:wall.wood.oak.name=Oak Wall
+
+tile.tfcs:wall.stone.marble.name=Marble Wall
+tile.tfcs:wall.stone.granite.name=Granite Wall
+tile.tfcs:wall.stone.gabbro.name=Gabbro Wall
+tile.tfcs:wall.stone.diorite.name=Diorite Wall
+
+tile.tfcs:wall.stone.andesite.name=Andesite Wall
+tile.tfcs:wall.stone.basalt.name=Basalt Wall
+tile.tfcs:wall.stone.dacite.name=Dacite Wall
+tile.tfcs:wall.stone.rhyolite.name=Rhyolite Wall
+
+tile.tfcs:gate.copper.name=Copper Gate
+tile.tfcs:gate.bronze.name=Bronze Gate
+tile.tfcs:gate.blackBronze.name=Black Bronze Gate
+tile.tfcs:gate.bismuthBronze.name=Bismuth Bronze Gate
+tile.tfcs:gate.iron.name=Wrought Iron Gate
+tile.tfcs:gate.steel.name=Steel Gate
+tile.tfcs:gate.blackSteel.name=Black Steel Gate
+tile.tfcs:gate.redSteel.name=Red Steel Gate
+tile.tfcs:gate.blueSteel.name=Blue Steel Gate
+
+#=========
+#= Items =
+#=========
+
+item.tfcs:mudBrick.wet.name=Wet Mud Brick
+item.tfcs:mudBrick.dry.name=Mud Brick
+
+item.tfcs:coin.copper.name=Copper Coin
+item.tfcs:coin.brass.name=Brass Coin
+item.tfcs:coin.nickel.name=Nickel Coin
+item.tfcs:coin.stirlingSilver.name=Steriling Silver Coin
+item.tfcs:coin.silver.name=Silver Coin
+item.tfcs:coin.roseGold.name=Rose Gold Coin
+item.tfcs:coin.gold.name=Gold Coin
+item.tfcs:coin.platinum.name=Platinum Coin
+
+item.tfcs:battleHorn.name=Battle Horn
+
+item.tfcs:woodenGear.name=Wooden Gear
+item.tfcs:stoneGear.name=Stone Gear
+item.tfcs:copperGear.name=Copper Gear
+item.tfcs:bronzeGear.name=Bronze Gear
+item.tfcs:blackBronzeGear.name=Black Bronze Gear
+item.tfcs:bismuthBronzeGear.name=Bismuth Bronze Gear
+item.tfcs:ironGear.name=Wrought Iron Gear
+item.tfcs:steelGear.name=Steel Gear
+item.tfcs:blackSteelGear.name=Black Steel Gear
+item.tfcs:redSteelGear.name=Red Steel Gear
+item.tfcs:blueSteelGear.name=Blue Steel Gear
+
+item.tfcs:woodenAxle.name=Wooden Axle
+item.tfcs:stoneAxle.name=Stone Axle
+item.tfcs:copperAxle.name=Copper Axle
+item.tfcs:bronzeAxle.name=Bronze Axle
+item.tfcs:blackBronzeAxle.name=Black Bronze Axle
+item.tfcs:bismuthBronzeAxle.name=Bismuth Bronze Axle
+item.tfcs:ironAxle.name=Wrought Iron Axle
+item.tfcs:steelAxle.name=Steel Axle
+item.tfcs:blackSteelAxle.name=Black Steel Axle
+item.tfcs:redSteelAxle.name=Red Steel Axle
+item.tfcs:blueSteelAxle.name=Blue Steel Axle
+
+item.tfcs:coil.copper.name=Copper Coil
+item.tfcs:coil.bronze.name=Bronze Coil
+item.tfcs:coil.blackBronze.name=Black Bronze Coil
+item.tfcs:coil.bismuthBronze.name=Bismuth Bronze Coil
+item.tfcs:coil.iron.name=Wrought Iron Coil
+item.tfcs:coil.steel.name=Steel Coil
+item.tfcs:coil.blackSteel.name=Black Steel Coil
+item.tfcs:coil.redSteel.name=Red Steel Coil
+item.tfcs:coil.blueSteel.name=Blue Steel Coil
+
+item.tfcs:saw.copper.name=Copper Saw
+item.tfcs:saw.bronze.name=Bronze Saw
+item.tfcs:saw.blackBronze.name=Black Bronze Saw
+item.tfcs:saw.bismuthBronze.name=Bismuth Bronze Saw
+item.tfcs:saw.iron.name=Wrought Iron Saw
+item.tfcs:saw.steel.name=Steel Saw
+item.tfcs:saw.blackSteel.name=Black Steel Saw
+item.tfcs:saw.redSteel.name=Red Steel Saw
+item.tfcs:saw.blueSteel.name=Blue Steel Saw
+
+item.tfcs:cannonBarrel.copper.name=Copper Cannon Barrel
+item.tfcs:cannonBarrel.bronze.name=Bronze Cannon Barrel
+item.tfcs:cannonBarrel.blackBronze.name=Black Bronze Cannon Barrel
+item.tfcs:cannonBarrel.bismuthBronze.name=Bismuth Bronze Cannon Barrel
+item.tfcs:cannonBarrel.iron.name=Wrought Iron Cannon Barrel
+item.tfcs:cannonBarrel.steel.name=Steel Cannon Barrel
+item.tfcs:cannonBarrel.blackSteel.name=Black Steel Cannon Barrel
+item.tfcs:cannonBarrel.redSteel.name=Red Steel Cannon Barrel
+item.tfcs:cannonBarrel.blueSteel.name=Blue Steel Cannon Barrel
+
+item.tfcs:windmill.name=Windmill
+item.tfcs:waterWheel.name=Water Wheel
+item.tfcs:handCrank.name=Hand Crank
+item.tfcs:saw.name=Wrought Iron Saw Blade
+item.tfcs:grindstone.name=Grindstone
+item.tfcs:gateMover.name=Gate Lifter
+
+item.tfcs:temperedBroadsword.Copper.name=Copper Tempered Broadsword
+item.tfcs:temperedBroadsword.Bronze.name=Bronze Tempered Broadsword
+item.tfcs:temperedBroadsword.BismuthBronze.name=Bismuth Bronze Tempered Broadsword
+item.tfcs:temperedBroadsword.BlackBronze.name=Black Bronze Tempered Broadsword
+item.tfcs:temperedBroadsword.Iron.name=Wrought Iron Tempered Broadsword
+item.tfcs:temperedBroadsword.Steel.name=Steel Tempered Broadsword
+item.tfcs:temperedBroadsword.BlackSteel.name=Black Steel Tempered Broadsword
+item.tfcs:temperedBroadsword.RedSteel.name=Red Steel Tempered Broadsword
+item.tfcs:temperedBroadsword.BlueSteel.name=Blue Steel Tempered Broadsword
+
+item.tfcs:temperedPickaxe.Copper.name=Copper Tempered Pickaxe
+item.tfcs:temperedPickaxe.Bronze.name=Bronze Tempered Pickaxe
+item.tfcs:temperedPickaxe.BismuthBronze.name=Bismuth Bronze Tempered Pickaxe
+item.tfcs:temperedPickaxe.BlackBronze.name=Black Bronze Tempered Pickaxe
+item.tfcs:temperedPickaxe.Iron.name=Wrought Iron Tempered Pickaxe
+item.tfcs:temperedPickaxe.Steel.name=Steel Tempered Pickaxe
+item.tfcs:temperedPickaxe.BlackSteel.name=Black Steel Tempered Pickaxe
+item.tfcs:temperedPickaxe.RedSteel.name=Red Steel Tempered Pickaxe
+item.tfcs:temperedPickaxe.BlueSteel.name=Blue Steel Tempered Pickaxe
+
+item.tfcs:shield.WOOD.name=Wooden Shield
+item.tfcs:shield.Copper.name=Copper Shield
+item.tfcs:shield.Bronze.name=Bronze Shield
+item.tfcs:shield.BismuthBronze.name=Bismuth Bronze Shield
+item.tfcs:shield.BlackBronze.name=Black Bronze Shield
+item.tfcs:shield.Iron.name=Wrought Iron Shield
+item.tfcs:shield.Steel.name=Steel Shield
+item.tfcs:shield.BlackSteel.name=Black Steel Shield
+item.tfcs:shield.RedSteel.name=Red Steel Shield
+item.tfcs:shield.BlueSteel.name=Blue Steel Shield
+
+item.tfcs:crossbow.Copper.name=Copper Crossbow
+item.tfcs:crossbow.Bronze.name=Bronze Crossbow
+item.tfcs:crossbow.BlackBronze.name=Black Bronze Crossbow
+item.tfcs:crossbow.BismuthBronze.name=Bismuth Bronze Crossbow
+item.tfcs:crossbow.Iron.name=Wrought Iron Crossbow
+
+item.tfcs:musket.Iron.name=Wrought Iron Musket
+item.tfcs:musket.Steel.name=Steel Musket
+item.tfcs:musket.BlackSteel.name=Black Steel Musket
+item.tfcs:musket.RedSteel.name=Red Steel Musket
+item.tfcs:musket.BlueSteel.name=Blue Steel Musket
+
+item.tfcs:bolt.Copper.name=Copper Bolt
+item.tfcs:bolt.Bronze.name=Bronze Bolt
+item.tfcs:bolt.BlackBronze.name=Black Bronze Bolt
+item.tfcs:bolt.BismuthBronze.name=Bismuth Bronze Bolt
+item.tfcs:bolt.Iron.name=Wrought Iron Bolt
+
+item.tfcs:wrench.name=Wrought Iron Wrench
+
+item.tfcs:ceramicShell.name=Ceramic Shell
+item.tfcs:longArrow.name=Long Arrow
+item.tfcs:longArrow_fire.name=Flaming Long Arrow
+item.tfcs:bullet.name=Lead Bullet
+item.tfcs:cannonBall.name=Lead Cannon Ball
+
+item.tfcs:longBow.WOOD.name=Wooden Long Bow
+
+item.tfcs:settler.name=Settler
+item.tfcs:travelingSalesman.name=Traveling Salesman
+item.tfcs:rideBear.name=Ridable Bear
+
+#=======
+#= GUI =
+#=======
+
+gui.button.AttackAnimals=Attack Animals
+
+#===========
+#= Strings =
+#===========
+
+
+#========
+#= Misc =
+#========
+
+item.tfcs:crossbow.Copper.name=Copper Crossbow
+item.tfcs:crossbow.Bronze.name=Bronze Crossbow
+item.tfcs:crossbow.BlackBronze.name=Black Bronze Crossbow
+item.tfcs:crossbow.BismuthBronze.name=Bismuth Bronze Crossbow
+item.tfcs:crossbow.Iron.name=Wrought Iron Crossbow
+
+item.tfcs:craftingItem.crossbowLimb.copper.name=Copper Crossbow Limb
+item.tfcs:craftingItem.crossbowLimb.bronze.name=Bronze Crossbow Limb
+item.tfcs:craftingItem.crossbowLimb.blackBronze.name=Black Bronze Crossbow Limb
+item.tfcs:craftingItem.crossbowLimb.bismuthBronze.name=Bismuth Bronze Crossbow Limb
+item.tfcs:craftingItem.crossbowLimb.wroughtIron.name=Wrought Iron Crossbow Limb
+item.tfcs:craftingItem.crossbowLimb.steel.name=Steel Crossbow Limb
+item.tfcs:craftingItem.crossbowLimb.blackSteel.name=Black Steel Crossbow Limb
+item.tfcs:craftingItem.crossbowLimb.redSteel.name=Red Steel Crossbow Limb
+item.tfcs:craftingItem.crossbowLimb.blueSteel.name=Blue Steel Crossbow Limb
+
+item.tfcs:craftingItem.boltHead.copper.name=Copper Bolt Head
+item.tfcs:craftingItem.boltHead.bronze.name=Bronze Bolt Head
+item.tfcs:craftingItem.boltHead.blackBronze.name=Black Bronze Bolt Head
+item.tfcs:craftingItem.boltHead.bismuthBronze.name=Bismuth Bronze Bolt Head
+item.tfcs:craftingItem.boltHead.wroughtIron.name=Wrought Iron Bolt Head
+item.tfcs:craftingItem.boltHead.steel.name=Steel Bolt Head
+item.tfcs:craftingItem.boltHead.blackSteel.name=Black Steel Bolt Head
+item.tfcs:craftingItem.boltHead.redSteel.name=Red Steel Bolt Head
+item.tfcs:craftingItem.boltHead.blueSteel.name=Blue Steel Bolt Head
+
+item.tfcs:craftingItem.TemperedPickHead.copper.name=Copper Tempered Pickaxe kHead
+item.tfcs:craftingItem.TemperedPickHead.bronze.name=Bronze Tempered Pickaxe Head
+item.tfcs:craftingItem.TemperedPickHead.blackBronze.name=Black Bronze Tempered Pickaxe Head
+item.tfcs:craftingItem.TemperedPickHead.bismuthBronze.name=Bismuth Bronze Tempered Pickaxe Head
+item.tfcs:craftingItem.TemperedPickHead.wroughtIron.name=Wrought Iron Tempered Pickaxe Head
+item.tfcs:craftingItem.TemperedPickHead.steel.name=Steel Tempered Pickaxe Head
+item.tfcs:craftingItem.TemperedPickHead.blackSteel.name=Black Steel Tempered Pickaxe Head
+item.tfcs:craftingItem.TemperedPickHead.redSteel.name=Red Steel Tempered Pickaxe Head
+item.tfcs:craftingItem.TemperedPickHead.blueSteel.name=Blue Steel Tempered Pickaxe Head
+
+item.tfcs:craftingItem.ShieldBody.copper.name=Copper Shield Body
+item.tfcs:craftingItem.ShieldBody.bronze.name=Bronze Shield Body
+item.tfcs:craftingItem.ShieldBody.blackBronze.name=Black Bronze Shield Body
+item.tfcs:craftingItem.ShieldBody.bismuthBronze.name=Bismuth Bronze Shield Body
+item.tfcs:craftingItem.ShieldBody.wroughtIron.name=Wrought Iron Shield Body
+item.tfcs:craftingItem.ShieldBody.steel.name=Steel Shield Body
+item.tfcs:craftingItem.ShieldBody.blackSteel.name=Black Steel Shield Body
+item.tfcs:craftingItem.ShieldBody.redSteel.name=Red Steel Shield Body
+item.tfcs:craftingItem.ShieldBody.blueSteel.name=Blue Steel Shield Body
+
+item.tfcs:craftingItem.TemperedSwordBlade.copper.name=Copper Tempered Sword Blade
+item.tfcs:craftingItem.TemperedSwordBlade.bronze.name=Bronze Tempered Sword Blade
+item.tfcs:craftingItem.TemperedSwordBlade.blackBronze.name=Black Bronze Tempered Sword Blade
+item.tfcs:craftingItem.TemperedSwordBlade.bismuthBronze.name=Bismuth Bronze Tempered Sword Blade
+item.tfcs:craftingItem.TemperedSwordBlade.wroughtIron.name=Wrought Iron Tempered Sword Blade
+item.tfcs:craftingItem.TemperedSwordBlade.steel.name=Steel Tempered Sword Blade
+item.tfcs:craftingItem.TemperedSwordBlade.blackSteel.name=Black Steel Tempered Sword Blade
+item.tfcs:craftingItem.TemperedSwordBlade.redSteel.name=Red Steel Tempered Sword Blade
+item.tfcs:craftingItem.TemperedSwordBlade.blueSteel.name=Blue Steel Tempered Sword Blade
+
+item.tfcs:craftingItem.CannonBarrelPiece.copper.name=Copper CannonBarrelPiece
+item.tfcs:craftingItem.CannonBarrelPiece.bronze.name=Bronze Cannon Barrel Piece
+item.tfcs:craftingItem.CannonBarrelPiece.blackBronze.name=Black Bronze Cannon Barrel Piece
+item.tfcs:craftingItem.CannonBarrelPiece.bismuthBronze.name=Bismuth Cannon Barrel Piece
+item.tfcs:craftingItem.CannonBarrelPiece.wroughtIron.name=Wrought Cannon Barrel Piece
+item.tfcs:craftingItem.CannonBarrelPiece.steel.name=Steel Cannon Barrel Piece
+item.tfcs:craftingItem.CannonBarrelPiece.blackSteel.name=Black Steel Cannon Barrel Piece
+item.tfcs:craftingItem.CannonBarrelPiece.redSteel.name=Red Steel Cannon Barrel Piece
+item.tfcs:craftingItem.CannonBarrelPiece.blueSteel.name=Blue Steel Cannon Barrel Piece
+tile.tfcs:wall.stone.mud.name= Mud Brick Wall
+
+#== Creative Tabs ==
+
+
+#=========
+#= WAILA =
+#=========
+
+#== Tooltips ==
+
+
+#== Options ==
